@@ -1,5 +1,5 @@
 clear all; clc;
-data = load('training_1.txt');
+data = load('training_2.txt');
 x1 = data(:,1); x2 = data(:,2); label = data(:,3);
 plot(x1(find(label == 1)),x2(find(label == 1)), 'ro', x1(find(label == -1)), x2(find(label == -1)), 'bo');
 hold on;
@@ -13,7 +13,3 @@ cvx_end
 t1 = 20:0.1:180;
 t2 = (-b - t1*w(1))/w(2);
 plot(t1,t2);
-
-%predict
-data2 = load('training_1.txt');
-

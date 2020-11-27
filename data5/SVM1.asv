@@ -1,3 +1,0 @@
-clear all; clc;
-data = load('training_1.txt');
-x1 = data(:,1)
