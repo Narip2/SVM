@@ -5,7 +5,7 @@ SVM practice
 ## Libsvm is some practice of using libsvm in matlab
 [Links](https://www.codenong.com/cs106412660/) about how to install libsvm first into matlab.
 
-[References](https://blog.csdn.net/weixin_43943977/article/details/103189339) about how to finish linear classification.
+[References](https://blog.csdn.net/weixin_43943977/article/details/103189339) about how to finish linear classification.  
 Be careful about the [parameters](https://www.cnblogs.com/LuffySir/p/6060694.html) in svmtrain() function, expecially the third one.
 -s svm类型：SVM设置类型（默认0)
 
